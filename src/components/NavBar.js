@@ -1,13 +1,13 @@
 import React from "react";
-import kb from "../kb.png";
-
 export const NavBar = () => {
   return (
       <div className="main">
-    <nav className="navbar navbar-expand-lg p-1 m-3">
+    <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img className="logo" src={kb} alt="KB" />
+            <span className="logo">&#60;</span>
+            <span className="logo-name">Khadar Basha </span>
+            <span className="logo">&#8725;&#62;  </span>
           </a>
           <button
             className="navbar-toggler"
@@ -28,12 +28,12 @@ export const NavBar = () => {
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="#about ">
                   AboutMe
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="#skills">
                  Skills
                 </a>
               </li>

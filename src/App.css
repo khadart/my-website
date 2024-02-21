@@ -7,24 +7,146 @@
  }
  
 }
+
+.App{
+padding:20px;
+}
 /* NavBar */
 
 
 .main {
   .logo {
-    width: 70px;
-    height: 60px;
+   color:gray;
+   
    
   }
+  .logo-name{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    color: blueviolet;
+   }
 
   nav a.nav-link {
     font-weight: 500;
- text-decoration-line:underline;
- letter-spacing:0.05rem;
-      }
+ letter-spacing:0.007rem;
+ 
+
+  }
+  a.nav-link:hover{
+    display: block;
+    color: blueviolet;;
+   background-color: rgb(222, 220, 220) ;
+   padding: 10px;
+   
+  
+  }
+
 }
 
-nav ul li {
-  text-transform:capitalize;
+/* About */
+
+/* .about-main{
+  display: flex;
+  padding-top: 50px;
+  padding-left: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 70px;
+  width: 100%;
+  height: auto;
+
+  .desc{
+    font-size: 30px;
+   color: #868e96;
+  }
+  
+    .desc{
+      padding-top: 200px;
+    }
+    
+    .picture{
+      margin-bottom: 30px;
+    }
+  
+  .about-name{
+    padding-left:90px;
+    color: blueviolet;
+  }
+  .about-text{
+    padding-top: 50px;
+  }
+ 
+}  */
+
+.about-main{
+  display: flex;
+  padding-top: 50px;
+  padding-left: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 70px;
+
+  .picture{
+    width: 600px;
+    height: 500px;
+  }
+
+  
+
+  .img{
+    width: 100%;
+    height: auto;
+  }
+  .about-name{
+    padding-left:90px;
+    color: blueviolet;
+  }
+  .about-text{
+    padding-left: 100px;
+  }
+
+  .desc{
+    font-size: 30px;
+   color: #868e96;
+   padding-top: 200px;
+  }
 }
 
+/* skilss */
+
+.skill-main{
+  display: flex ;
+  justify-content: space-evenly;
+  padding-top: 100px;
+
+  .skill-image:hover{
+
+    background-color:blueviolet;
+    padding: 10px;
+    transition: all;
+    color: aliceblue;
+    border-radius: 10px;
+    
+  };
+
+  .skill-text {
+    h3{
+   font-size: large;
+    text-align: center;
+    }
+
+ }
+
+ img {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  object-fit:contain;
+  cursor: pointer;
+  
+  
+}
+.skill-image {
+  width: 250px;
+  height: 300px;
+}
+
+}
