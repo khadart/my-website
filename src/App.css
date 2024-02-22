@@ -1,152 +1,161 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @layer base {
- body {
-  @apply font-[Raleway]
- }
- 
+  body {
+    @apply font-[Raleway]
+  }
+
 }
 
-.App{
-padding:20px;
+.App {
+  padding: 20px;
 }
+
 /* NavBar */
 
 
 .main {
   .logo {
-   color:gray;
-   
-   
+    color: gray;
+
+
   }
-  .logo-name{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:x-large;
+
+  .logo-name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
     color: blueviolet;
-   }
+  }
 
   nav a.nav-link {
     font-weight: 500;
- letter-spacing:0.007rem;
- 
+    letter-spacing: 0.007rem;
+
 
   }
-  a.nav-link:hover{
+
+  a.nav-link:hover {
     display: block;
-    color: blueviolet;;
-   background-color: rgb(222, 220, 220) ;
-   padding: 10px;
-   
-  
+    color: blueviolet;
+    ;
+    background-color: rgb(222, 220, 220);
+    padding: 10px;
+
+
   }
 
 }
 
 /* About */
 
-/* .about-main{
-  display: flex;
-  padding-top: 50px;
-  padding-left: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 70px;
-  width: 100%;
-  height: auto;
-
-  .desc{
-    font-size: 30px;
-   color: #868e96;
-  }
-  
-    .desc{
-      padding-top: 200px;
-    }
-    
-    .picture{
-      margin-bottom: 30px;
-    }
-  
-  .about-name{
-    padding-left:90px;
-    color: blueviolet;
-  }
-  .about-text{
-    padding-top: 50px;
-  }
- 
-}  */
-
-.about-main{
+.about-main {
   display: flex;
   padding-top: 50px;
   padding-left: 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 70px;
 
-  .picture{
+  .picture {
     width: 600px;
     height: 500px;
   }
 
-  
 
-  .img{
-    width: 100%;
+
+  .img {
+    max-width: 100%;
     height: auto;
   }
-  .about-name{
-    padding-left:90px;
+
+  .about-name {
+    padding-left: 90px;
     color: blueviolet;
   }
-  .about-text{
+
+  .about-text {
     padding-left: 100px;
   }
 
-  .desc{
+  .desc {
     font-size: 30px;
-   color: #868e96;
-   padding-top: 200px;
+    color: #868e96;
+    padding-top: 200px;
   }
 }
 
 /* skilss */
 
-.skill-main{
-  display: flex ;
+.skill-main {
+  display: flex;
   justify-content: space-evenly;
   padding-top: 100px;
 
-  .skill-image:hover{
+  .skill-image:hover {
 
-    background-color:blueviolet;
+    background-color: blueviolet;
     padding: 10px;
-    transition: all;
+    transition: 2s;
     color: aliceblue;
     border-radius: 10px;
-    
-  };
+
+  }
+
+  ;
 
   .skill-text {
-    h3{
-   font-size: large;
-    text-align: center;
+    h3 {
+      font-size: large;
+      text-align: center;
+      padding-top: 10px;
     }
 
- }
+  }
 
- img {
-  width: 100%;
-  height: auto;
-  align-items: center;
-  object-fit:contain;
-  cursor: pointer;
-  
-  
-}
-.skill-image {
-  width: 250px;
-  height: 300px;
+  img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    object-fit: contain;
+    cursor: pointer;
+    aspect-ratio: 3/2;
+
+
+  }
+
+  .skill-image {
+    width: 250px;
+    height: 300px;
+
+
+  }
+
 }
 
+.contact {
+  display: flex;
+  padding-top: 50px;
+  padding-left: 40px;
+  justify-content:space-around;
+  
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .contact-img {
+    padding-bottom: 110px;
+   
+width: 600px;
+height: 500px;
+  }
+  .contact-common{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+   
+  }
+  .contact-common:hover{
+    color: #868e96;
+    -webkit-font-smoothing:
+    align-items;
+  }
 }
