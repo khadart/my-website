@@ -6,7 +6,6 @@ export const Skills = () => {
     <div className="skill-main" id="skills">
       {aboutSection.map((item, index) => (
         <div className="skill-image">
-        
             <img  src={item.image}  />
             <div className="skill-text">
               <h3>{item.title}</h3>

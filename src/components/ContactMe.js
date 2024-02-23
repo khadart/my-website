@@ -5,7 +5,7 @@ export const ContactMe = () => {
     <div className='contact' id='contact-me'>
         <div>
         <h1>
-            Contact Me 
+            Contact Me &#xf87b;
         </h1>
         <a className='contact-common' href=' +91 7013903020'> +91 7013903020</a>
         <br>

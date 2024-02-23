@@ -2,7 +2,7 @@ import React from "react";
 import kz from "../kz.jpg";
 const About = () => {
   return (
-    <div className="about-main" id="about">
+    <div className="container1" id="about">
       <div>
         <h1>Hello,</h1>
         <h1 className="about-text">
