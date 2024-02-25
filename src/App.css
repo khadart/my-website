@@ -7,9 +7,7 @@
 
 }
 
-.App {
-  padding: 20px;
-}
+
 
 /* NavBar */
 
@@ -50,13 +48,13 @@
 
 .container1 {
   display: flex;
-  padding-top: 50px;
-  padding-left: 40px;
+  padding: 50px;
+ 
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 70px;
 
   .picture {
-    width: 600px;
+    width: 400px;
     height: 500px;
   }
 
@@ -143,8 +141,7 @@
 
 .contact {
   display: flex;
-  padding-top: 50px;
-  padding-left: 40px;
+
   justify-content:space-around;
   
   img{
@@ -154,7 +151,7 @@
   .contact-img {
     padding-bottom: 110px;
    
-width: 600px;
+width: 350px;
 height: 500px;
   }
   .contact-common{
